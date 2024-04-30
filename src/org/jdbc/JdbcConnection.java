@@ -45,6 +45,8 @@ public class JdbcConnection {
 		} catch (ClassNotFoundException | SQLException e) {
 
 			e.printStackTrace();
+			
+			System.out.println("Hello...");
 		}
 
 	}
