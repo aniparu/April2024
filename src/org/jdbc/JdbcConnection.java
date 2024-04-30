@@ -47,6 +47,8 @@ public class JdbcConnection {
 			e.printStackTrace();
 			
 			System.out.println("Hello...");
+			int a= 100;
+			System.out.println(a);
 		}
 
 	}
