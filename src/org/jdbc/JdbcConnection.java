@@ -45,11 +45,15 @@ public class JdbcConnection {
 		} catch (ClassNotFoundException | SQLException e) {
 
 			e.printStackTrace();
-			
+
 			System.out.println("Hello...");
-			int a= 100;
+			int a = 100;
 			System.out.println(a);
+
+			System.out.println("anitha added new line...");
+
 			System.out.println("Good morning This is parkavi...");
+
 		}
 
 	}
